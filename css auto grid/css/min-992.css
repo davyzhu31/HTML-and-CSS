@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+    @media screen and (min-width: 992px) {
+        header {height: 14em;}
+        header h1 {
+            margin: -80px 0px -80px 20px;
+        }
+        header li {
+          float: left;
+        }
+        header input {
+            display: none;
+        }
+    } 
