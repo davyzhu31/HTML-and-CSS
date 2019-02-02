@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header li a, .dropbtn {
+    display:inline-table;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+header li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(54,67,57,0.75);
+    overflow: hidden;
+}
+
+header li.dropdown {
+    display: block;
+}
+
+header .dropdown-content {
+    display: none;
+    background-color: rgba(54,67,57,0.25);
+    min-width: 160px;
+    overflow: hidden;
+}
+        
+header.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    overflow: hidden;
+}
+        
+header.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+        
+header .dropdown:hover .dropdown-content {
+    display: block;
+    overflow: hidden;
+}
