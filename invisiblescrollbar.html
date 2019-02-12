@@ -9,10 +9,10 @@
             height: 200px;
             overflow: scroll;
             border: thick black solid;
-            scrollbar-width: none;
+            scrollbar-width: none; /*Firefox support*/
             
         }
-        ::-webkit-scrollbar {visibility: hidden;}
+        ::-webkit-scrollbar {visibility: hidden;} /*Chrome support*/
     </style>
 </head>
 <body>
