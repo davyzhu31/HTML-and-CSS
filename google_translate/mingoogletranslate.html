@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Google Translate Page</title>
+</head>
+
+<body>
+    <!--Make sure you have good internet connection-->
+    <form action="https://translate.google.com/?submit=Translate" class="translate" id="form-google-translate-text-translator" method="get" target="_blank">
+        <label for="">Type Text To Translate</label>
+        <br>
+        <!--
+        Text To Translate 
+        Note: It has to have the name "q" to work
+        -->
+        <textarea name="q" cols="58" rows="7"></textarea>
+        <br>
+        <!--From Language Choose-->
+        <label for="">From</label>
+        <!--From select tag has to have name "sl"-->
+        <select name="sl">
+            <option value="auto" selected="selected">Detect language</option>
+            <option value="zh-CN">Chinese</option>
+            <option value="en">English</option>
+            <option value="ja">Japanese</option>
+        </select>
+        <!--To Language Choose-->
+        <label for="">To</label>
+        <!--To select tag has to have name "tl"-->
+        <select  name="tl">
+            <option value="zh-CN">Chinese (Simplified)</option>
+            <option value="zh-TW">Chinese (Traditional)</option>
+            <option value="en" selected="selected">English</option>
+            <option value="ja">Japanese</option>
+        </select>
+        <input name="submit" type="submit" value="Translate" class="submit" id="form-google-translate-text-translator_submit"/>
+    </form>
+</body>
+</html>
